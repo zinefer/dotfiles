@@ -1,0 +1,2 @@
+# Ignore generated fish
+fish/config/fishd.*
