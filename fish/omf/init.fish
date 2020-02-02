@@ -3,3 +3,6 @@ set -g theme_display_git_master_branch yes
 
 # GH_BASE_DIR - Install directory for the gh tool
 set -xg GH_BASE_DIR $HOME/src
+
+# GO Variables
+set -g GOPATH $HOME/src
