@@ -6,9 +6,9 @@ go install github.com/rhysd/dotfiles
 dotfiles clone zinefer
 ```
 
+# Update symlinks
 ```sh
-# From anywhere
-dotfiles update
+dotfiles link
 ```
 
 ```sh
