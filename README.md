@@ -13,6 +13,13 @@ dotfiles clone zinefer
 dotfiles link
 ```
 
+# Install OMF
+
+```sh
+curl -L https://get.oh-my.fish > install
+fish install --path=~/.local/share/omf --config=~/.config/omf
+```
+
 ```sh
 function foo
     echo 'foo was here'
