@@ -1,5 +1,5 @@
 {
-  "fish/omf": "~/.config/omf",
+  "fish/omf": "~/.local/share/omf",
   "fish/config": "~/.config/fish",
   ".vimrc": "~/.vimrc"
 }
