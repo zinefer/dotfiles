@@ -1,10 +1,11 @@
 # My dot files
 
 ```sh
-# wget https://github.com/rhysd/dotfiles/releases/download/v0.2.0/dotfiles_linux_arm.zip
-wget https://github.com/rhysd/dotfiles/releases/download/v0.2.0/dotfiles_linux_amd64.zip
-unzip dotfiles*
-mv dotfiles /usr/local/bin/dotfiles
+brew install go
+```
+
+```sh
+go install github.com/rhysd/dotfiles@latest
 dotfiles clone zinefer
 ```
 
@@ -13,7 +14,17 @@ dotfiles clone zinefer
 dotfiles link
 ```
 
-# Install OMF
+# ZSH
+
+## Install Oh My Zsh
+
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+# Fish
+
+## Install OMF
 
 ```sh
 curl -L https://get.oh-my.fish > install

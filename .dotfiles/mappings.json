@@ -1,5 +1,7 @@
 {
   "fish/omf": "~/.config/omf",
   "fish/config": "~/.config/fish",
-  ".vimrc": "~/.vimrc"
+  ".vimrc": "~/.vimrc",
+  ".zshrc": "~/.zshrc",
+  ".zprofile": "~/.zprofile"
 }
